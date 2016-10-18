@@ -1,0 +1,196 @@
+/*=======================================================
+ *
+ *Custom stylings for tkeucsd.com
+ *
+ *By: Justin Wright and David Thomson
+ *
+ *=======================================================*/
+
+img{
+    max-width: 100%;
+}
+
+img.nav-logo{
+    margin-right: 10px;
+}
+
+#supernovavid{
+    position: relative;
+    height: 0px;
+    padding-top: 57.5%;
+    overflow: hidden;
+}
+
+#tkeitoffvid{
+    position: relative;
+    height: 0px;
+    padding-top: 57.5%;
+    overflow: hidden;
+}
+
+#moongodvid{
+    position: relative;
+    height: 0px;
+    padding-top: 57.5%;
+    overflow: hidden;
+}
+
+div.embedvid, iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #777;
+}
+
+.page-header {
+    color: #5A5A5A;
+    border-bottom-color: rgb(253, 208, 208);
+}
+
+.thumb-center {
+    text-align:center;
+}
+
+.center {
+    text-align:center;
+}
+
+.thumbs > li {
+    display: inline-block;
+    *display:inline; /* ie7 fix */
+    float: none; /* this is the part that makes it work */
+    max-width: 50%;
+
+}
+
+a.thumbnail:hover {
+    border-color: #FFA1A1;
+}
+
+.thumb-merch {
+    text-align:left;
+}
+
+.car-pic{
+    width: 100%;
+}
+
+.page-header h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/*==================
+   Media Queries
+====================*/
+
+/*==== Nav Bar Header Resize ====*/
+
+@media (max-width: 767px) {
+    .carousel { margin-right: -20px; margin-left: -20px; }
+}
+
+@media (min-width: 1200px) {
+    #brand-mobile {
+        display: none;
+    }
+    #brand-original {
+        display: inline;
+    }
+}
+
+@media (max-width: 1200px) {
+    #brand-mobile {
+        display: inline;
+    }
+    #brand-original {
+        display: none;
+    }
+}
+
+@media (max-width: 979px) {
+    #brand-mobile {
+        display: none;
+    }
+    #brand-original {
+        display: inline;
+    }
+}
+
+@media (max-width: 540px) {
+    #brand-mobile {
+        display: inline;
+        font-size: 17px;
+    }
+    #brand-original {
+        display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+    .main-hero h1 {
+        font-size: 59px;
+    }
+}
+
+@media (max-width: 979px) {
+    .main-hero h1 {
+        font-size: 44px;
+    }
+    .main-hero {
+        padding: 25px;
+    }
+    .main-hero p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 754px) {
+    .main-hero p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 716px) {
+    .main-hero p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 682px) {
+    .main-hero h1 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 666px) {
+    .main-hero h1 {
+        font-size: 12px;
+    }
+    .main-hero h1 {
+        font-size: 39px;
+    }
+    .main-hero {
+        padding: 18px;
+    }
+}
+
+/*==== /Nav Bear Header Resize ====*/
+
+/* @media (max-width: 979px) {
+    .navbar-fixed-top {
+        position: fixed;
+    }
+    body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 780px) {
+    .navbar-fixed-top {
+        position: fixed;
+    }
+} */
